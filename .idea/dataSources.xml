@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@shlee.codei.net" uuid="f5626be6-84e0-4ffb-a9ec-ce4284d46b68">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@shlee.codei.net:1521:XE</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@shlee.codei.net [2]" uuid="2e60d8b2-3aab-4ec3-9208-a87563a89ab4">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@shlee.codei.net:1521:XE</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@shlee.codei.net(mysql)" uuid="20ddb178-358e-4650-8ac7-eed87f2ff28b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://shlee.codei.net:3306/movie_project</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

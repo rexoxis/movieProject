@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="movie_register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>Movies</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <a href="#"><img src="../img/logo2.jpg" alt="Logo"></a>
+            </div>
+
+            <ul class="navbar_menu">
+                <li><a href="movies.html">영화</a></li>
+                <li><a href="#">상품</a></li>
+                <li><a href="#">영화후기</a></li>
+                <li><a href="#">공지사항</a></li>
+            </ul>
+
+            <ul class="navbar_member">
+                <li><a href="join.html">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+
+            <a href="#" class="navbar_btn">menu</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="container">
+                <h2>영화 등록</h2>
+           <div class="movie_register">
+                <div class="info_label">
+                    <span>영화 제목</span>
+                    <span>장르</span>
+                    <span>감독</span>
+                    <span>출연배우</span>
+                    <span>러닝타임</span>
+                    <span>줄거리</span>
+                    <span>개봉일</span>
+                    <span>포스터</span>
+                </div>
+                <div class="info_insert">
+                    <input type="text" id="title" name="title">
+                    <input type="text" id="genre" name="genre">
+                    <input type="text" id="director" name="director">
+                    <input type="text" id="actor" name="actor">
+                    <input type="text" id="running_time" name="running_time">
+                    <input type="text" id="summary" name="summary">
+                    <input type="text" id="opening_date" name="opening_date">
+                    <input type="file" id="poster" name="poster">
+                </div>
+            </div>
+            <h2>상영 정보 등록</h2>
+            <div class="showing_register">
+                <div class="theater_info">
+                    <span>극장명</span>
+                    <span>상영날짜</span>
+                    <span>상영시간</span>
+                </div>
+                <div class="theater_info_insert">
+                    <input type="text" id="thrater" name="thrater">
+                    <input type="text" id="showing_date" name="showing_date">
+                    <input type="text" id="showing_time" name="showing_time">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <ul class="social_link">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <h3>Copyright 2020. Lee All Rights Reserved.</h3>
+    </footer>
+
+</body>
+
+</html>

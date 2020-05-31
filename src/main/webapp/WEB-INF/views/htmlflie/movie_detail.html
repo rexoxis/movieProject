@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="movie_detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/1a503258d7.js" crossorigin="anonymous"></script>
+    <title>Movies</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <a href="#"><img src="../img/logo2.jpg" alt="Logo"></a>
+            </div>
+
+            <ul class="navbar_menu">
+                <li><a href="#">영화예매</a></li>
+                <li><a href="#">상품</a></li>
+                <li><a href="#">영화후기</a></li>
+                <li><a href="#">공지사항</a></li>
+            </ul>
+
+            <ul class="navbar_member">
+                <li><a href="join.html">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+
+            <a href="#" class="navbar_btn">menu</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="contents">
+                <div class="movie_info_detail">
+                    <p class="title">날씨의 아이</p>
+                    <p class="genre">장르 : 애니메이션</p>
+                    <p class="director">감독 : 신카이 마코토</p>
+                    <p class="actor">출연배우 : 다이고 코타로(호다카 모리시마 목소리), 모리 나나(히나 아마노 목소리)</p>
+                    <p class="runnin_time">상영시간 : 112분</p>
+                    <p class="opening_date">개봉일 : 2019 .10.30</p>
+
+                </div>
+
+                <div class="movie_info_img">
+                    <a href="#"><img src="../img/movie_poster1.jpg" alt=""></a>
+                    <button type="button">예매하기</button>
+                </div>
+
+            </div>
+            <div class="summary">
+                <h4>줄거리</h4>
+                <p>
+                    “이제 비는 그치고, 우리의 세상이 빛나기 시작할 거야”<br>
+                    비가 그치지 않던 어느 여름날,<br>
+                    가출 소년 ‘호다카’는 수상한 잡지사에 취직하게 되고<br>
+                    비밀스러운 소녀 ‘히나’를 우연히 만난다.<br>
+
+                    “지금부터 하늘이 맑아질 거야”<br>
+
+                    그녀의 기도에 거짓말 같이 빗줄기는 멈추고,<br>
+                    사람들의 얼굴에 환한 빛이 내려온다.<br>
+
+                    “신기해, 날씨 하나에 사람들의 감정이 이렇게나 움직이다니”<br>
+
+                    하지만, 맑음 뒤 흐림이 찾아오듯<br>
+                    두 사람은 엄청난 세계의 비밀을 마주하게 되는데…<br>
+
+                    흐리기만 했던 세상이 빛나기 시작했고, 그 끝에는 네가 있었다.</p>
+            </div>
+            
+            <div class="comment_box">
+                <div class="comment_intro">
+                    <h2>영화후기 및 감상평을 남겨주세요!</h2>
+                </div>
+               
+                
+                <div class="comment_view">
+                    <ul>
+                       <li>
+                            <div class="input_comment">
+                            <i class="far fa-comment-alt"></i>
+                            <div class="set_userid">test_user</div>
+                            <div class="score">
+                                10점
+                            </div>
+                            <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
+                            <button type="button" class="okbtn">감상평 등록</button>
+                           </div>
+                       </li>
+                        <li>
+                            <div class="user_id">test_user</div>
+                            <div class="user_score">10</div>
+                            <div class="user_comment"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus excepturi ex dolore, repellat illum eos earum nihil reiciendis, pariatur asperiores consequuntur sunt veritatis autem, cumque dolorem sint. Culpa, fugiat quos?Lorem ipsum dolor sit amet,</p></div>
+                            <div class="regdate">2020.04.19 | 20:21:34</div>
+                        </li>
+                        <li>
+                            <div class="user_id">test_user</div>
+                            <div class="user_score">10</div>
+                            <div class="user_comment">정말 대박이네요!</div>
+                            <div class="regdate">2020.04.19 | 20:21:34</div>
+                        </li>
+                        <li>
+                            <div class="user_id">test_user</div>
+                            <div class="user_score">10</div>
+                            <div class="user_comment">정말 대박이네요!</div>
+                            <div class="regdate">2020.04.19 | 20:21:34</div>
+                        </li>
+                        <li>
+                            <div class="user_id">test_user</div>
+                            <div class="user_score">10</div>
+                            <div class="user_comment">정말 대박이네요!</div>
+                            <div class="regdate">2020.04.19 | 20:21:34</div>
+                        </li>
+                        <li>
+                            <div class="user_id">test_user</div>
+                            <div class="user_score">10</div>
+                            <div class="user_comment">정말 대박이네요!</div>
+                            <div class="regdate">2020.04.19 | 20:21:34</div>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="social_link">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <h3>Copyright 2020. Lee All Rights Reserved.</h3>
+    </footer>
+
+</body>
+
+</html>

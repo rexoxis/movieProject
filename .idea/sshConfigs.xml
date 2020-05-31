@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="shlee.codei.net" id="4dc0a748-dbc7-4f3e-b673-fcfc5bcb8851" port="9999" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</project>
